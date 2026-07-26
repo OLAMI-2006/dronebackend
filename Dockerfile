@@ -1,4 +1,5 @@
-FROM eclipse-temurin:17-jdk-alpine AS build
+# Stage 1: Build the application using 
+FROM eclipse-temurin:25-jdk-alpine AS build
 WORKDIR /app
 COPY . .
 RUN chmod +x mvnw
