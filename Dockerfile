@@ -1,4 +1,3 @@
-# Stage 1: Build the application using 
 FROM eclipse-temurin:25-jdk-alpine AS build
 WORKDIR /app
 COPY . .
